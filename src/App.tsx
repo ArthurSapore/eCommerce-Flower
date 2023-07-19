@@ -5,12 +5,13 @@ import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PlanCard from './components/PlanCard';
 import Checkbox from './components/Checkbox';
+import Radio from './components/Radio';
 
 function App() {
   return (
     <>  
-      <Navbar /> 
-      <Checkbox value={'Checkbox'} disabled={true} checked={true}/>
+      <Navbar />
+      <Radio value='teste' checked/> 
     </>
   );
 }
